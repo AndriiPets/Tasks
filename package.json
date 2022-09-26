@@ -1,0 +1,30 @@
+{
+  "name": "tasks",
+  "version": "1.0.0",
+  "description": "ts programming questions solutions",
+  "main": "index.js",
+  "scripts": {
+    "yearsToDays": "node build/yearsToDays.js",
+    "fibonacci": "node build/fibonacci.js",
+    "passwordValidator": "node build/passwordValidator.js",
+    "binarySearch": "node build/binarySearch.js",
+    "textSearch": "node build/findText.js",
+    "timer": "node build/timer.js",
+    "promise": "node build/promiseExample.js",
+    "counter": "node build/counter.js",
+    "shapes": "node build/shapesFactory.js",
+    "tests": "protractor build/protractor/conf.js"
+  },
+  "author": "Andrii Petsold",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0",
+    "protractor": "^7.0.0",
+    "save": "^2.5.0"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^4.3.0",
+    "@types/jasminewd2": "^2.0.10",
+    "@types/node": "^18.7.18"
+  }
+}

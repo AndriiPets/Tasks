@@ -1,0 +1,15 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+      "outDir": "./build",
+      "rootDir": "./src",
+      "target": "ES2015",
+      "module": "CommonJS",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true
+    },
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Recommended"
+  }
